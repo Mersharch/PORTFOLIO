@@ -1,0 +1,166 @@
+.App {
+margin: 0;
+color:#111010;
+}
+
+
+/* NAVBAR */
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 3px 1px 5px #e7e2e2;
+}
+
+.nav--title {
+  font-size: 1.4rem;
+  margin-left: 5%;
+  color: #dd8f28;
+}
+
+.nav--ul {
+  display: block;
+  margin-right: 8% ;
+}
+
+.nav--li {
+  display: inline;
+  font-size: 1.4em;
+  margin: 5%;
+}
+
+
+
+
+/* HEADER*/
+header {
+  box-shadow: 3px 1px 5px #89888a;
+  display: flex;
+  flex-direction: row;
+  padding: 45px 0;
+}
+
+.header {
+    padding: 0.5% 10%;
+
+}
+
+.header--welcome {
+  font-size: 3rem;
+  font-weight:500;
+  
+}
+
+.header--intro {
+  margin-top: -4.3%;
+  width:100%;
+  font-size: 2.5rem;
+  font-weight:500;
+
+}
+
+.header--sub_title {
+  font-size: 1.8rem;
+  color: #dd8f28;
+  width:70%;
+  margin-top: -3.5%;
+}
+
+
+
+/* PROJECTS */
+
+.projects {
+  padding-bottom: 3% ;
+  box-shadow: 3px 2px 3px #89888a;
+
+}
+
+.project--title {
+  display: block;
+  text-align: center;
+  font-size: 2.6rem;
+  color: #dd8f28;
+  font-weight: 400;
+}
+
+.project--cards {
+  padding: 0 5%;
+  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 10%;
+}
+
+
+/*CARD*/
+
+.card {
+  border: 3px solid black;
+  width: 300px;
+  height: 400px;
+  padding: 0 0 1% 0;
+  border-radius: 10%;
+}
+
+.card--title {
+  text-align: center;
+}
+
+.card--vid {
+  width: 100%;
+  height: 45%;
+  background-color: white;
+}
+
+.card--description {
+  text-align: center;
+}
+
+.card--link {
+  text-align: center;
+}
+
+.card--url {
+  text-decoration: none;
+}
+
+
+/*SKILLS*/
+
+.skills--title {
+  display: block;
+  text-align: center;
+  font-size: 2.6rem;
+  color: #dd8f28;
+  font-weight: 400;
+}
+
+.skills--container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skills--card {
+  width: 200px;
+}
+
+.skills-card-img {
+  width: 100%;
+}
+
+.skills-card-title {
+  text-align: center;
+}
+
+
+/*ANIMATIONS AND EFFECTS*/
+
+.nav--li:hover {
+  color: #dd8f28;
+}
+
+.nav--title:hover {
+  color:black;
+}
